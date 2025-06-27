@@ -38,15 +38,14 @@ SRCS    = ft_atoi.c\
 OBJS    = $(SRCS:.c=.o)
 
 LIBC    = ar rcs
-CC      = gcc
+CC      = cc
 RM      = rm -f
 CFLAGS  = -Wall -Wextra -Werror
-INCS    = libft.h
+
+all: $(NAME)
 
 $(NAME): $(OBJS) 
 	$(LIBC) $(NAME) $(OBJS)
-
-all:    $(NAME)
 
 clean:
 	$(RM) $(OBJS)
@@ -56,4 +55,4 @@ fclean: clean
 
 re: fclean all
 
-.PHONY: all bonus clean fclean re .c .o
+.PHONY: all bonus clean fclean re
