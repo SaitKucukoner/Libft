@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isascii.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skucukon <skucukon@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:16:14 by skucukon          #+#    #+#             */
-/*   Updated: 2025/06/27 20:44:49 by skucukon         ###   ########.fr       */
+/*   Updated: 2025/06/27 22:45:05 by skucukon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isascii(int c)
+int	ft_isascii(int c)
 {
-    if (c >= 0 && c <= 127)
-        return (1);
-    else
-        return (0);
+	if (c >= 0 && c <= 127)
+		return (1);
+	else
+		return (0);
 }

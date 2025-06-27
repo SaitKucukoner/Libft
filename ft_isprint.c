@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skucukon <skucukon@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:09:00 by skucukon          #+#    #+#             */
-/*   Updated: 2025/06/27 20:51:20 by skucukon         ###   ########.fr       */
+/*   Updated: 2025/06/27 22:46:21 by skucukon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    if (c > 31 && c < 127)
-        return (1);
-    else
-        return (0);
+	if (c > 31 && c < 127)
+		return (1);
+	else
+		return (0);
 }

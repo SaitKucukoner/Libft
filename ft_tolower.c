@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_tolower.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skucukon <skucukon@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:06:43 by skucukon          #+#    #+#             */
-/*   Updated: 2025/06/27 20:45:46 by skucukon         ###   ########.fr       */
+/*   Updated: 2025/06/27 23:55:37 by skucukon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
-    if (c > 64 && c < 91)
-        return (c + 32);
-    else
-        return (c);
+	if (c > 64 && c < 91)
+		return (c + 32);
+	else
+		return (c);
 }

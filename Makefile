@@ -43,13 +43,13 @@ RM      = rm -f
 CFLAGS  = -Wall -Wextra -Werror
 INCS    = libft.h
 
-$(NAME): $(OBJS) $(INCLUDE)
+$(NAME): $(OBJS) 
 	$(LIBC) $(NAME) $(OBJS)
 
 all:    $(NAME)
 
 clean:
-	$(RM) $(OBJS) $(BONUS_OBJS)
+	$(RM) $(OBJS)
 
 fclean: clean
 	$(RM) $(NAME)

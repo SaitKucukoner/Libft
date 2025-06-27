@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skucukon <skucukon@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:10:35 by skucukon          #+#    #+#             */
-/*   Updated: 2025/06/27 20:57:51 by skucukon         ###   ########.fr       */
+/*   Updated: 2025/06/27 22:45:45 by skucukon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    if (c > 47 && c < 58)
-        return (1);
-    else
-        return (0);
+	if (c > 47 && c < 58)
+		return (1);
+	else
+		return (0);
 }

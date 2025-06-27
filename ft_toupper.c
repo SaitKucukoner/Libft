@@ -3,17 +3,17 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: skucukon <skucukon@student.42istanbul.c    +#+  +:+       +#+        */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/27 13:06:46 by skucukon          #+#    #+#             */
-/*   Updated: 2025/06/27 20:45:39 by skucukon         ###   ########.fr       */
+/*   Updated: 2025/06/27 23:55:56 by skucukon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
-    if (c > 96 && c < 123)
-        return (c - 32);
-    else
-        return (c);
+	if (c > 96 && c < 123)
+		return (c - 32);
+	else
+		return (c);
 }

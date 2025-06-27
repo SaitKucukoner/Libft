@@ -1,12 +1,25 @@
-#include "libft.h"
-void ft_striteri(char *s, void (*f)(unsigned int, char *))
-{
-    int i;
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_striteri.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: skucukon <skucukon@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/27 23:18:48 by skucukon          #+#    #+#             */
+/*   Updated: 2025/06/27 23:40:25 by skucukon         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-    i = 0;
-    while (s[i])
-    {
-        (*f)(i, &s[i]);
-        i++;
-    }
+#include "libft.h"
+
+void	ft_striteri(char *s, void (*f)(unsigned int, char *))
+{
+	int	i;
+
+	i = 0;
+	while (s[i])
+	{
+		(*f)(i, &s[i]);
+		i++;
+	}
 }
